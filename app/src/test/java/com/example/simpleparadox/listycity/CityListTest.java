@@ -29,7 +29,7 @@ class CityListTest {
         assertTrue(cityList.hasCity(new City("Regina", "Saskatchewan")));
     }
     @Test
-    void testUnimplementedFeatures(){
-        throw new RuntimeException("Feature not implemented");
+    void testAdder(){
+        assertEquals(Adder.add(5, 2), 7);
     }
 }
